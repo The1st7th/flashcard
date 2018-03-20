@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $(".flashcard").on('click', function() {
+  $(".flashcard").on('mouseover', function() {
     $(this).toggleClass('flipped');
   });
 });
+      
